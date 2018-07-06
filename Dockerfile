@@ -1,2 +1,5 @@
 FROM scratch
-CMD ["/ant_forest_energy_web_server"]
+WORKDIR /hmoe/myapp
+RUN chmod -R 777 /hmoe/myapp
+
+CMD ["/hmoe/myapp/main"]
