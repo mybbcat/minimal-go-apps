@@ -1,5 +1,5 @@
 FROM scratch
-WORKDIR /hmoe/myapp
-RUN chmod -R 777 /hmoe/myapp
+WORKDIR /home/myapp
+RUN chmod -R 777 /home/myapp
 
-CMD ["/hmoe/myapp/main"]
+CMD ["/home/myapp/main"]
