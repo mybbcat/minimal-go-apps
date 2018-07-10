@@ -1,4 +1,4 @@
-FROM scratch
+FROM ubuntu:16.04
 WORKDIR /home/myapp2
 COPY ant_forest_energy_web_server /home/myapp/ant_forest_energy_web_server
 COPY config /home/myapp/config
